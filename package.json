@@ -5,7 +5,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages --dist public --repo git@github.com:timothygorer/timothygorer.github.io.git --branch master"
   },
   "dependencies": {
     "@emotion/core": "^10.0.14",
